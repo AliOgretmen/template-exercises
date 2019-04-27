@@ -11,9 +11,15 @@ export class ParentComponent implements OnInit {
 
   public newMessage = "";
 
+  public valuez = ""
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  message(value){
+    console.log(value);
   }
 
 }

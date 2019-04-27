@@ -7,6 +7,8 @@ import { ReferansComponent } from './components/referans/referans.component';
 import { PipesComponent } from './components/pipes/pipes.component';
 import { ParentComponent } from './components/parent/parent.component';
 import { ChildComponent } from './components/child/child.component';
+import { OdevComponent } from './components/odev/odev.component';
+
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ChildComponent } from './components/child/child.component';
     ReferansComponent,
     PipesComponent,
     ParentComponent,
-    ChildComponent
+    ChildComponent,
+    OdevComponent,
+
   ],
   imports: [
     BrowserModule,

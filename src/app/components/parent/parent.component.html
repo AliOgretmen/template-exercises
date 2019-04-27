@@ -1,2 +1,7 @@
 <app-child [parentData]="name" (childData)="newMessage=$event"></app-child>
 <h2>{{newMessage}}</h2>
+<input type="text" #myInput>
+<button (click)="message(myInput.value)">Message</button>
+<app-odev [upperData]="myInput.value"></app-odev>
+
+
